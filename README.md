@@ -12,4 +12,4 @@ We got a baseline accuracy of 55% and 69% for fact = 0 and fact = 1 respectively
 
 We then attempted a different approach by pre-training the model on a modified version of the CommonSenseQA model then incrementally finetuned the model on the OpenBookQA to get improved accuracies of 58% and 71% for fact = 0 and fact = 1 respectively.
 
-Please refer to Report.pdf for a detailed explanation.
+Please refer to the "Report.pdf" file for a detailed explanation.
