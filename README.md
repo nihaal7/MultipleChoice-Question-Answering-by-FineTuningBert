@@ -1,12 +1,11 @@
-# CommonSense-Question-Answering-by-FineTuningBert
+# Multiple Choice Question Answering by Fine Tuning Bert
 
-The Commonsense Question Answering project is based upon the OpenBookQA dataset modeled on an “open book” middle-school science exam” format (see https://aclanthology.org/D18‐1260.pdf). Multiple-choice questions are posed based upon one of 1326 facts.
+The Multiple Choice Answering project is based upon the OpenBookQA dataset modeled on an “open book” middle-school science exam” format (see https://aclanthology.org/D18‐1260.pdf). Multiple-choice questions are posed based upon one of 1326 facts.
 
 We have trained two models:
 
-Fact = 1. Model to use knowledge from an accompanying fact along with commonsense to answer the questions.
-
-Fact = 0. Model to use only commonsense to answer the questions.
+1. Fact = 1. Model to use knowledge from an accompanying fact along with commonsense to answer the questions.
+2. Fact = 0. Model to use only commonsense to answer the questions.
 
 We have fine-tuned the BERT model for common-sense question answering.
 
